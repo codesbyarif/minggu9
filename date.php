@@ -1,6 +1,6 @@
 <?php 
 $todayDate = "30 nov 2023";
-$returnDate = date("d-m-Y", strtotime('+1000 day', strtotime($todayDate)))
+$returnDate = date("d-m-Y", strtotime('-500 day', strtotime($todayDate)))
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@ $returnDate = date("d-m-Y", strtotime('+1000 day', strtotime($todayDate)))
     <h3>
         Tanggal hari ini = <?= $todayDate; ?>
         <br>
-        Tanggal 1000 hari dari skrg = <?= $returnDate; ?>
+        Tanggal 500 hari di masa lampau = <?= $returnDate; ?>
     </h3>
 </body>
 </html>
