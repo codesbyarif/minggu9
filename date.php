@@ -1,19 +1,3 @@
 <?php 
-$todayDate = "30 nov 2023";
-$returnDate = date("d-m-Y", strtotime('-500 day', strtotime($todayDate)))
+echo date("l",mktime(10,0,0,10,25,2000));
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h3>
-        Tanggal hari ini = <?= $todayDate; ?>
-        <br>
-        Tanggal 500 hari di masa lampau = <?= $returnDate; ?>
-    </h3>
-</body>
-</html>
