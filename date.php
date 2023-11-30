@@ -1,3 +1,3 @@
 <?php 
-echo date("l",mktime(10,0,0,10,25,2000));
+echo date("l",strtotime("25 October 2030"));
 ?>
